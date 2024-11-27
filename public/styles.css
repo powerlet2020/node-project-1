@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+}
+
+form .calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.5); 
+    border: 2px solid rgb(255, 255, 255) ;
+    padding: 10px 15px 15px 20px;
+}
+.tag{
+    color: green;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+form .calculator label{
+    margin: 10px 10px;
+}
+
+form .calculator input{
+    padding: 5px;
+
+}
+button{
+    background: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+form .calculator select{
+    width: 95%;
+    padding: 6px;
+}
